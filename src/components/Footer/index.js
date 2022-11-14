@@ -1,6 +1,6 @@
 import React from "react";
 //import { animateScroll as scroll } from "react-scroll";
-import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGoogle } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -77,15 +77,8 @@ function Footer() {
               <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
-                href="//www.youtube.com/watch?v=9__cE0QNhNk"
-                target="_blank"
-                aria-label="YouTube"
-              >
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
+              <SocialIconLink href="/" target="_blank" aria-label="Gmail">
+                <FaGoogle />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

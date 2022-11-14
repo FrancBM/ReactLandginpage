@@ -26,11 +26,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
-        <HeroP>
-          Sign up for a new account today and recive $250 in credit towwards
-          your next payment.
-        </HeroP>
+        <HeroH1>BASE DE CARGA 2022</HeroH1>
+        <HeroP>Estación de Carga para dispositivos 6 en 1</HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"
@@ -39,7 +36,7 @@ const HeroSection = () => {
             primary="true"
             dark="true"
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Empezar {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

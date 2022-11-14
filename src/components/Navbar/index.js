@@ -53,7 +53,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  Conoce más
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -65,7 +65,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Discover
+                  Descubre
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -77,19 +77,19 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  Elígelo
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="signup"
+                  to="quienesSomos"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Sign Up
+                  Quienes Somos
                 </NavLinks>
               </NavItem>
             </NavMenu>
